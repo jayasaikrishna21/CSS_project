@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Borders</title>
+    <style>
+        body{
+            font-family: "Comic Sans MS",sans-serif;
+        }
+        div{
+            background-color: orange;
+            text-align: center;
+            padding: 10px;
+            margin: 10px;
+            width: 500px;
+        }
+        #round{
+            border: 5px solid orangered;
+            border-bottom-right-radius: 20px;
+            border-top-left-radius: 20px;
+        }
+        #movie{
+
+            margin-bottom: 100px;
+            border-top: 60px solid orangered;
+            border-right: 80px solid black;
+            border-bottom: 60px solid orangered;
+            border-left:80px solid black;
+            padding: 0;
+            box-shadow: 0 0 15px black;
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+
+<!-- BORDER TOP -->
+<div>
+    <h1 style="border-top: 2px solid black">BORDER TOP</h1>
+</div>
+
+<!-- BORDER RIGHT -->
+<div>
+    <h1 style="border-right: 2px solid black">BORDER RIGHT</h1>
+</div>
+
+<!-- BORDER BOTTOM -->
+<div>
+    <h1>BORDER BOTTOM</h1>
+</div>
+
+<!-- BORDER LEFT -->
+<div>
+    <h1>BORDER LEFT</h1>
+</div>
+
+<!-- BORDER ALL SIDES -->
+<div>
+    <h1>BORDER ALL</h1>
+</div>
+
+<!-- ROUNDER BORDER ALL SIDES -->
+
+<div id="round">
+    <h1>ROUNDED ALL</h1>
+</div>
+
+<!-- ROUNDED TWO SIDES -->
+<div>
+    <h1>ROUNDED TWO</h1>
+</div>
+
+<!-- CUSTOM BORDER -->
+<div id="movie">
+    <iframe width="500" height="480" src="https://www.youtube.com/embed/DaKPNK0gLhE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</div>
+
+
+</body>
+</html>
